@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jokes",
+  "info": {
+    "singularName": "joke",
+    "pluralName": "jokes",
+    "displayName": "joke"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "setup": {
+      "type": "string",
+      "required": true
+    },
+    "punchline": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
